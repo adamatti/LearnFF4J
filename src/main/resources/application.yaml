@@ -1,0 +1,16 @@
+server:
+    port: 8080
+
+management:
+    endpoints:
+        web:
+            base-path: ~
+
+logging:
+    level:
+        org: ERROR
+        adamatti: INFO
+
+spring:
+    main:
+        banner-mode: off
